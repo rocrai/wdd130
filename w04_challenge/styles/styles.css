@@ -1,0 +1,45 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    background-color: lightpink;
+    color: white;
+    max-width: 400px;
+    font-family: sans-serif;
+}
+div.imagepic img {
+    width: 150px;
+}
+header h1 {
+    font-size: 2em;
+    color: white;
+    display:inline;
+}
+header h1:hover {
+    color: black;
+}
+section#four {
+    color: black;
+    font-size: 1em;
+    text-align: left;
+}
+section.quote {
+    max-width: 230px;
+    text-align: center;
+    display: block;
+    line-height: 2em;
+    font-family: serif;
+    margin: 0 auto;
+    font-size: 1.08em;
+}
+footer {
+    color: black;
+    line-height: 0px;
+    padding-top: 10px;
+}
+#church {
+    line-height: 20px;
+    max-width: 370px;
+}
+/* * {
+    border: 2px solid blue
+} */
