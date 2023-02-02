@@ -136,3 +136,9 @@ footer .social img {
 main section img {
     box-sizing: border-box;
 }
+.msg {
+    margin-top: 200px;
+}
+#background {
+    margin-bottom: 100px;
+}
