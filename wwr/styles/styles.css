@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rowdies&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -30,6 +31,7 @@ nav a:hover {
 }
 .book, .join {
     color: #242423;
+    background-color: #F5CB5C;
 }
 nav a{
     color: #242423;
@@ -45,7 +47,7 @@ footer p a:hover {
     background-color: #242423;
     color: #242423;
 }
-.icon {
+.icon, .logo {
     width: 80px;
 }
 #hero img {
@@ -65,8 +67,72 @@ nav a {
 .msg {
     background-color: #242423;
     color: #F5CB5C;
-}
+    line-height: 1.5em;
+    }
 footer {
     background-color: #242423;
     color: #F5CB5C;
+    margin-top: 200px
+}
+body {
+    font-family: Rowdies, Arial, Helvetica;
+    margin: 0;
+    padding: 0;
+}
+.msg p {
+    font-family: Roboto, Arial, Helvetica;
+    font-size: .8em;
+}
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+}
+.book, .join {
+    font-size: 18px;
+    margin-top: 50px;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+ padding-top: 5px;
+} 
+nav a {
+    padding: 35px;
+}
+.book, .join {
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+.icon {
+    padding-top: 10px;
+}
+.msg {   
+    padding: 35px;
+}
+.msg p {   
+    padding-bottom: 15px;
+}
+footer {   
+    padding: 25px 50px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.join {
+    color: #242423;
+    background-color: #F5CB5C;
+}
+.join:hover {
+    background-color: #fcfbfb;
+    color: #242423;
+}
+.card-img {
+    border: 10px solid #242423;
+}
+main section img {
+    box-sizing: border-box;
 }
