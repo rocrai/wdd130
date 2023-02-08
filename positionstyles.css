@@ -68,27 +68,33 @@
 .content3 {
   /* This is the parent of the activity 3 boxes. */
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 70px;
+  grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+  grid-template-rows: 100px 100px 100px 100px;
+  grid-column-gap: 20px;
 }
 .red3 {
-  width: 100%; 
+  width: 770px; 
   height: 100px; 
   background-color: red;
-  grid-column: 1/3
+  grid-column: 1/3;
+  grid-row: 1/2
 } 
 .green3 {
   width: 350px; 
   height: 200px; 
   background-color: green;
+  grid-row: 2/4;
+  grid-column: 1/7;
 } 
 .yellow3 {
   width: 350px; 
   height: 200px; 
   background-color: gold;
+  grid-row: 2/4;
+  grid-column: 7/14;
 } 
 .blue3 {
-  width: 100%;
+  width: 770px;
   height: 100px; 
   background-color: blue;
   grid-column: 1/3
@@ -130,7 +136,7 @@
   height: 400px;
 }
 .red5 { 
-  width: 100%; 
+  width: 670px; 
   height: 100px; 
   background-color: red;
   grid-row: 1/2;
@@ -146,14 +152,14 @@
 
 } 
 .yellow5 {
-  width: 100%; 
+  width: 670px; 
   height: 270px; 
   background-color: gold;
-  font-size: .933em;
+  font-size: .95em;
 
 } 
 .blue5 {
-  width: 100%; 
+  width: 670px; 
   height: 100px; 
   background-color: blue; 
 } 
