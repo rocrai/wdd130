@@ -222,6 +222,53 @@ footer {
     opacity: .6;
     transform: scale(1.1);
 }
+.header {
+    background-color: #242423;
+    width: 100%;
+}
+.salmon_river {
+    float: right;
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+}
+.rivers_main {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+.desolation {
+    float: right;
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+}
+.grand_canyon {
+    float: right;
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+}
+.second {
+    margin-top: 50px;
+}
+.first {
+    margin-top: 50px;
+}
+.third {
+    margin-top: 50px;
+}
+.rivers_body {
+    background-color: #333533;
+    color: #F5CB5C;
+}
+.rivers_main h1 {
+    color: #fcfbfb;
+}
+.header_text {
+    text-align: center;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
