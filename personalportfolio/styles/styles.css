@@ -70,4 +70,9 @@ footer p a{
     text-decoration: underline;
     color: #252422;
 }
-
+@media screen and (max-width: 900px) {
+    .hero {
+        margin-top: -100;
+        margin-top: 1px;
+    }
+}
