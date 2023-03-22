@@ -70,9 +70,34 @@ footer p a{
     text-decoration: underline;
     color: #252422;
 }
+.skills_page .skillh1{
+    font-size: 2.5em;
+    text-align: center;
+}
+.skills_page img {
+    width:150px;
+    float: right;
+    
+}
+.skills_page div {
+    margin: 100px
+}
+.skills_page p {
+    font-size: 1.5em;
+    width: 80%;
+}
 @media screen and (max-width: 900px) {
     .hero {
         margin-top: -100px;
         margin-top: 1px;
+    }
+    .skills_page {
+        margin-top: 50px;
+    }
+    .skills_page img {
+        float: right;
+    }
+    .skills_page p{
+        width: 100%;
     }
 }
